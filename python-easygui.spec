@@ -11,6 +11,7 @@ Source0:	http://www.ferg.org/easygui/easygui.zip
 URL:		http://www.ferg.org/easygui/
 BuildRequires:	python-devel >= 2.2
 %pyrequires_eq	python-modules
+Requires:	python-tkinter
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
