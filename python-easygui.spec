@@ -1,6 +1,6 @@
 %define		module	easygui
-Summary:	EasyGUI is a module for very simple, very easy GUI programming
-Summary(pl):	Pakiet GUI dla Pythona
+Summary:	EasyGUI - a module for very simple, very easy GUI programming
+Summary(pl):	EasyGUI - modu³ do bardzo prostego i ³atwego programowania GUI dla Pythona
 Name:		python-%{module}
 Version:	0.72
 Release:	1
@@ -29,10 +29,23 @@ need to. If you have not yet learned the event-driven paradigm for GUI
 programming, EasyGUI will allow you to be productive with very basic
 tasks immediately.
 
+%description -l pl
+Do¶wiadczeni pythoni¶ci potrzebuj± wsparcia do szybkiego,
+niekoniecznie porz±dnego tworzenia GUI. Nowi programi¶ci Pythona
+potrzebuj± mo¿liwo¶ci nie wymagaj±cych ¿adnej znajomo¶ci Tkinter,
+ramek, widgetów, wywo³añ zwrotnych czy lambda. To jest to, co
+dostarcza EasyGUI. Przy u¿yciu EasyGUI wszystkie interakcje z
+graficznym interfejsem zachodz± przy u¿yciu prostych wywo³añ funkcji.
+
+EasyGUI ró¿ni siê od innych GUI tym, ¿e EasyGUI NIE jest sterowane
+zdarzeniami. Pozwala programowaæ w tradycyjny, liniowy sposób i
+umieszczaæ dialogi do prostego wej¶cia i wyj¶cia wtedy, kiedy to
+potrzebne. Tym, którzy nie poznali jeszcze paradygmatu sterowania
+zdarzeniami dla programowania GUI, EasyGUI pozwoli natychmiast byæ
+produktywnym przy bardzo prostych zadaniach.
+
 %prep
 %setup -q -c
-
-%build
 
 %install
 rm -rf $RPM_BUILD_ROOT
