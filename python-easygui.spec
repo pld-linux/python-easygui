@@ -1,6 +1,6 @@
 %define		module	easygui
 Summary:	EasyGUI - a module for very simple, very easy GUI programming
-Summary(pl.UTF-8):   EasyGUI - moduł do bardzo prostego i łatwego programowania GUI dla Pythona
+Summary(pl.UTF-8):	EasyGUI - moduł do bardzo prostego i łatwego programowania GUI dla Pythona
 Name:		python-%{module}
 Version:	0.72
 Release:	1
