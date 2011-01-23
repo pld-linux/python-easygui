@@ -10,6 +10,8 @@ Source0:	http://www.ferg.org/easygui/easygui.zip
 # Source0-md5:	32aefe99d98aaea41576038da0513e07
 URL:		http://www.ferg.org/easygui/
 BuildRequires:	python-devel >= 2.2
+BuildRequires:	python-modules
+BuildRequires:	rpm-pythonprov
 BuildRequires:	unzip
 %pyrequires_eq	python-modules
 Requires:	python-tkinter
