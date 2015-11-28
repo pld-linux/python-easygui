@@ -3,7 +3,7 @@ Summary:	EasyGUI - a module for very simple, very easy GUI programming
 Summary(pl.UTF-8):	EasyGUI - moduł do bardzo prostego i łatwego programowania GUI dla Pythona
 Name:		python-%{module}
 Version:	0.72
-Release:	3
+Release:	4
 License:	CCA v2.0
 Group:		Libraries/Python
 Source0:	http://www.ferg.org/easygui/easygui.zip
